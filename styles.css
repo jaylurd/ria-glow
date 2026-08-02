@@ -195,6 +195,8 @@ img { display: block; max-width: 100%; }
 .hero-h1 .light { font-weight: 300; }
 .hero-h1 .bold  { font-weight: 700; }
 .hero-subtext { font-size: 12.5px; line-height: 1.65; opacity: 0.88; color: #fff; }
+.desktop-text { display: inline; }
+.mobile-text  { display: none; }
 
 /* ── Tag pills ── */
 .hero-bottom-tags {
@@ -737,6 +739,9 @@ img { display: block; max-width: 100%; }
     padding: 20px 20px 32px;
     margin: 0;
   }
+
+  .desktop-text { display: none; }
+  .mobile-text  { display: inline; font-size: 14px; font-weight: 500; opacity: 0.9; }
 
   /* ── Feature cards: pull into normal flex flow ──
        (position:static stops them overlapping the headline text) */
