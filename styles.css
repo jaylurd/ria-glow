@@ -108,7 +108,7 @@ img { display: block; max-width: 100%; }
    ============================================================ */
 .hero-card {
   position: relative; border-radius: 40px;
-  padding: 24px 32px 36px; min-height: 550px; overflow: hidden;
+  padding: 24px 32px 36px; min-height: 480px; overflow: hidden;
   display: flex; flex-direction: column; justify-content: space-between;
   color: #fff; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
 }
@@ -667,7 +667,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 900px) {
   body { padding: 12px; }
   .section-container { padding: 36px 28px; }
-  .hero-card { padding: 20px; min-height: 660px; }
+  .hero-card { padding: 20px; min-height: 560px; }
   .hero-h1   { font-size: 34px; }
 
   /* ── Feature cards: grid layout so img+info pair per row ── */
@@ -735,8 +735,8 @@ img { display: block; max-width: 100%; }
 
   .hero-card {
     border-radius: 0;
-    min-height: 620px;
-    padding: 20px 20px 32px;
+    min-height: 520px;
+    padding: 18px 18px 24px;
     margin: 0;
   }
 
