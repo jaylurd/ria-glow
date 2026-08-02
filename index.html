@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RiaGlowRoom | Beauty in Every Detail</title>
+  <meta name="description" content="At RiaGlowRoom, every appointment is a personalized luxury beauty experience. Bridal glam, nails, lash extensions and more — Ado Ekiti, Nigeria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet" />
+  <!-- Iconify Icon Script -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- MOBILE MENU DRAWER OVERLAY -->
+  <div class="mobile-menu-overlay" id="mobile-menu">
+    <div class="mobile-menu-drawer">
+      <div class="mobile-menu-header">
+        <span class="mobile-brand">RiaGlowRoom</span>
+        <button class="mobile-close-btn" id="mobile-menu-close" aria-label="Close menu">&times;</button>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About Us</a>
+        <a href="#services" class="mobile-nav-link">Category &amp; Services</a>
+        <a href="#services-full" class="mobile-nav-link">All Services</a>
+        <a href="#gallery" class="mobile-nav-link">Gallery</a>
+        <a href="#reviews" class="mobile-nav-link">Reviews</a>
+        <a href="#faq" class="mobile-nav-link">FAQ</a>
+        <a href="#contact" class="mobile-nav-link">Contact Us</a>
+      </nav>
+      <div class="mobile-menu-footer">
+        <a href="https://wa.me/2347075095646" class="btn-primary" target="_blank" rel="noopener">Book on WhatsApp ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="page-container">
+
+    <!-- ============================================================
+         1. HERO SECTION
+    ============================================================ -->
+    <header class="hero-card" id="home">
+      <!-- Full Cover Hero Model Image -->
+      <img src="ria hero.png" alt="RiaGlowRoom model" class="hero-bg-img" />
+      <div class="hero-vignette-overlay"></div>
+
+      <!-- Topbar inside Hero Card -->
+      <nav class="hero-topbar">
+        <div class="topbar-left">
+          <button class="icon-btn hamburger" id="hamburger-btn" aria-label="Toggle mobile menu">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </button>
+          <div class="nav-pills-group">
+            <a href="#home" class="nav-pill active">Home</a>
+            <a href="#services" class="nav-pill">Category</a>
+            <a href="#about" class="nav-pill">About us</a>
+          </div>
+        </div>
+
+        <div class="brand-logo"><a href="#home">RiaGlowRoom</a></div>
+
+        <div class="topbar-right">
+          <!-- WhatsApp Icon Button -->
+          <a href="https://wa.me/2347075095646" class="icon-btn" aria-label="WhatsApp" target="_blank" rel="noopener" title="Contact on WhatsApp">
+            <iconify-icon icon="ic:baseline-whatsapp" width="20" height="20"></iconify-icon>
+          </a>
+          <!-- Instagram Icon Button -->
+          <a href="https://instagram.com/sheisria" class="icon-btn" aria-label="Instagram" target="_blank" rel="noopener" title="Follow on Instagram">
+            <iconify-icon icon="ri:instagram-line" width="20" height="20"></iconify-icon>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Gallery View Play Button Badge (Top Right) -->
+      <a href="#gallery" class="gallery-view-trigger" id="gallery-badge-btn">
+        <button class="play-circle-btn" aria-label="Play gallery view">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        </button>
+        <span>Gallery<br />View</span>
+      </a>
+
+      <!-- Main Headline & Subheading (Left Side) -->
+      <div class="hero-left-headline">
+        <h1 class="hero-h1">
+          Where <span class="light">Beauty</span> Meets<br />
+          Luxury at <span class="bold">RiaGlowRoom</span><br />
+          <span class="bold">Beauty Center</span>
+        </h1>
+
+        <p class="hero-subtext">
+          At RiaGlowRoom, every appointment is a personalized beauty experience. From<br />
+          flawless bridal glam to luxury nail care and stunning lash extensions, we enhance<br />
+          your natural beauty with elegance, precision, and confidence.
+        </p>
+      </div>
+
+      <!-- Bottom Tag Pills (Bottom Left) -->
+      <div class="hero-bottom-tags">
+        <div class="tag-row">
+          <span class="flower-tag"><svg class="flower-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.8 5.3.8-3.8 3.7.9 5.3-4.8-2.5-4.8 2.5.9-5.3-3.8-3.7 5.3-.8z"/></svg> Bridal Glam</span>
+          <span class="flower-tag"><svg class="flower-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.8 5.3.8-3.8 3.7.9 5.3-4.8-2.5-4.8 2.5.9-5.3-3.8-3.7 5.3-.8z"/></svg> Soft Glam</span>
+        </div>
+        <div class="tag-row">
+          <span class="flower-tag"><svg class="flower-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.8 5.3.8-3.8 3.7.9 5.3-4.8-2.5-4.8 2.5.9-5.3-3.8-3.7 5.3-.8z"/></svg> Full Glam</span>
+          <span class="flower-tag"><svg class="flower-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.8 5.3.8-3.8 3.7.9 5.3-4.8-2.5-4.8 2.5.9-5.3-3.8-3.7 5.3-.8z"/></svg> Nail Services</span>
+          <span class="flower-tag"><svg class="flower-ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 4.8 5.3.8-3.8 3.7.9 5.3-4.8-2.5-4.8 2.5.9-5.3-3.8-3.7 5.3-.8z"/></svg> Pedicure</span>
+        </div>
+      </div>
+
+      <!-- Feature Image Cards Stack (Bottom Right Overlay) -->
+      <div class="hero-feature-cards-deck">
+        <div class="feature-card-item img-only">
+          <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=300&q=80" alt="Bridal Glam" />
+          <a href="https://wa.me/2347075095646" class="arrow-badge" aria-label="View details">↗</a>
+        </div>
+        <div class="feature-card-item glass-info">
+          <h4>Bridal Glam</h4>
+          <p>Flawless bridal looks for<br />your most special day</p>
+        </div>
+        <div class="feature-card-item img-only">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=300&q=80" alt="Nail Services" />
+          <a href="https://wa.me/2347075095646" class="arrow-badge" aria-label="View details">↗</a>
+        </div>
+        <div class="feature-card-item glass-info">
+          <h4>Nail Services</h4>
+          <p>Luxury manicures, acrylics<br />& custom nail art</p>
+        </div>
+      </div>
+
+      <!-- Hero Timeline Slider Controls (Bottom Right Bar) -->
+      <div class="hero-timeline-controls">
+        <span class="t-num">01</span>
+        <div class="t-line"><div class="t-progress"></div></div>
+        <span class="t-num">04</span>
+        <div class="t-arrow-btns">
+          <button class="t-btn prev-slide" aria-label="Previous slide">←</button>
+          <button class="t-btn active next-slide" aria-label="Next slide">→</button>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- ============================================================
+         2. YOUR BEAUTY STARTS HERE
+    ============================================================ -->
+    <section class="section-container" id="about">
+      <div class="section-head-flex">
+        <h2 class="section-title-large">
+          Your Beauty &amp; Confidence<br />
+          <span class="bold-title">Starts Here!</span>
+        </h2>
+        <a href="#about-full" class="pill-btn-outline" id="about-us-btn">
+          <span>↗</span> About Us
+        </a>
+      </div>
+
+      <div class="three-col-banner-grid">
+        <div class="banner-col">
+          <div class="rounded-img-box" style="background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80'); height: 280px;"></div>
+          <p class="banner-desc">At RiaGlowRoom, beauty is more than makeup — it's confidence, self-expression, and elegance.</p>
+          <a href="#about-full" class="pill-btn-outline small">Read More ↗</a>
+        </div>
+        <div class="banner-col">
+          <div class="rounded-img-box" style="background-image: url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80'); height: 340px;"></div>
+        </div>
+        <div class="banner-col col-with-title">
+          <h3 class="side-col-title">Discover Your<br />True Beauty<br />Potential</h3>
+          <div class="rounded-img-box" style="background-image: url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=700&q=80'); height: 220px;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. SERVICES WE PROVIDE
+    ============================================================ -->
+    <section class="section-container" id="services">
+      <div class="section-head-flex">
+        <h2 class="section-title">Services We Provide</h2>
+        <a href="#services-full" class="pill-btn-outline" id="more-services-btn">More Services ↗</a>
+      </div>
+
+      <div class="services-two-col">
+        <div class="service-pill-list">
+          <div class="service-row-item active" id="svc-bridal">
+            <div class="item-left">
+              <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=100&h=100&q=80" alt="Bridal Makeup" class="mini-avatar" />
+              <span>Bridal Makeup</span>
+            </div>
+            <a href="https://wa.me/2347075095646" target="_blank" class="arrow-circle-btn dark" aria-label="Book Bridal Makeup">↗</a>
+          </div>
+          <div class="service-row-item" id="svc-nails">
+            <div class="item-left">
+              <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=100&h=100&q=80" alt="Nail Services" class="mini-avatar" />
+              <span>Nail Services</span>
+            </div>
+            <a href="https://wa.me/2347075095646" target="_blank" class="arrow-circle-btn line" aria-label="Book Nail Services">↗</a>
+          </div>
+          <div class="service-row-item" id="svc-lash">
+            <div class="item-left">
+              <img src="https://images.unsplash.com/photo-1583241800698-e8ab01830a34?auto=format&fit=crop&w=100&h=100&q=80" alt="Lash Extensions" class="mini-avatar" />
+              <span>Lash Extensions</span>
+            </div>
+            <a href="https://wa.me/2347075095646" target="_blank" class="arrow-circle-btn line" aria-label="Book Lash Extensions">↗</a>
+          </div>
+          <div class="service-row-item" id="svc-pedi">
+            <div class="item-left">
+              <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=100&h=100&q=80" alt="Pedicure & Foot Care" class="mini-avatar" />
+              <span>Pedicure &amp; Foot Care</span>
+            </div>
+            <a href="https://wa.me/2347075095646" target="_blank" class="arrow-circle-btn line" aria-label="Book Pedicure">↗</a>
+          </div>
+        </div>
+
+        <div class="service-feature-images">
+          <div class="service-img-card large-service-img" style="background-image: url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=85');">
+            <div class="badge-overlay">
+              <a href="https://wa.me/2347075095646" target="_blank" class="arrow-circle-btn transparent" aria-label="More details">↗</a>
+              <span>More Details</span>
+            </div>
+          </div>
+          <div class="service-img-card small-service-img" style="background-image: url('https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=600&q=80');"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. ALL SERVICES LIST (WITH FILTER LOGIC & WHATSAPP LINKS)
+    ============================================================ -->
+    <section class="section-container" id="services-full">
+      <div class="section-head-flex align-top">
+        <div>
+          <h2 class="section-title-large">
+            All Our<br /><span class="bold-title">Beauty Services</span>
+          </h2>
+          <p class="sub-caption">Professional, luxury beauty tailored to every occasion.</p>
+        </div>
+        <div class="category-filter-pills">
+          <button class="filter-pill active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="glam">Glam</button>
+          <button class="filter-pill" data-filter="nails">Nails</button>
+          <button class="filter-pill" data-filter="lash">Lashes</button>
+          <button class="filter-pill" data-filter="care">Care</button>
+        </div>
+      </div>
+
+      <div class="services-cards-grid">
+        <div class="service-card" data-category="glam">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:diamond-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Bridal Makeup</h3>
+          <p>Elegant bridal looks designed to make your special day unforgettable.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Bridal%20Makeup" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="glam">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:sparkle-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Soft Glam</h3>
+          <p>Fresh, radiant makeup perfect for everyday elegance and intimate occasions.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Soft%20Glam" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card featured-service-card" data-category="glam">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:heart-bold" width="32" height="32" style="color: #f0c9b7;"></iconify-icon>
+          </div>
+          <h3>Nude Glam</h3>
+          <p>Natural beauty enhanced with soft, sophisticated finishes.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Nude%20Glam" target="_blank" class="service-card-link text-white">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="glam">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:crown-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Full Glam</h3>
+          <p>Bold, flawless makeup for events, birthdays, parties, and celebrations.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Full%20Glam" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="glam">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:camera-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Photoshoot Makeup</h3>
+          <p>Camera-ready beauty crafted for photography and professional shoots.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Photoshoot%20Makeup" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="glam">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:seal-check-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Engagement Makeup</h3>
+          <p>Classic and timeless glam for your engagement celebration.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Engagement%20Makeup" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="nails">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:hand-sparkle-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Nail Services</h3>
+          <p>Luxury manicures, acrylic nails, gel polish, custom nail art, and nail refills.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Nail%20Services" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="lash">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:eye-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Lash Extensions</h3>
+          <p>Classic, Hybrid, and Volume lashes designed to elevate your eyes effortlessly.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Lash%20Extensions" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="care">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:flower-lotus-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Pedicure &amp; Foot Care</h3>
+          <p>Relaxing pedicures, foot spa treatments, scrubs, callus removal, and polish.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20book%20Pedicure" target="_blank" class="service-card-link">Book Service ↗</a>
+        </div>
+
+        <div class="service-card" data-category="care">
+          <div class="service-card-icon">
+            <iconify-icon icon="ph:house-line-bold" width="32" height="32" style="color: #c49a88;"></iconify-icon>
+          </div>
+          <h3>Home Service</h3>
+          <p>Professional beauty services delivered directly to your preferred location.</p>
+          <a href="https://wa.me/2347075095646?text=Hi%20RiaGlowRoom,%20I'd%20like%20to%20request%20Home%20Service" target="_blank" class="service-card-link">Request Home Service ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. WHY CHOOSE US / FEATURED
+    ============================================================ -->
+    <section class="section-container" id="why">
+      <div class="section-head-flex">
+        <h2 class="section-title-large">
+          Luxury Beauty,<br /><span class="bold-title">Crafted Just For You</span>
+        </h2>
+        <a href="https://wa.me/2347075095646" class="pill-btn-outline" id="why-book-btn" target="_blank">Book Now ↗</a>
+      </div>
+
+      <div class="featured-two-col">
+        <div class="featured-image-stack">
+          <div class="featured-img-main" style="background-image: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85');"></div>
+          <div class="featured-img-side">
+            <div class="featured-img-small" style="background-image: url('https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=400&q=80');"></div>
+            <div class="featured-img-small" style="background-image: url('https://images.unsplash.com/photo-1583241800698-e8ab01830a34?auto=format&fit=crop&w=400&q=80');"></div>
+          </div>
+        </div>
+
+        <div class="why-choose-list">
+          <p class="why-intro">Every appointment is carefully designed to match your personality, style, and occasion. We believe true beauty begins with confidence.</p>
+          <div class="why-item">
+            <div class="why-icon">✦</div>
+            <div>
+              <h4>Luxury Beauty Experience</h4>
+              <p>We create personalized beauty experiences tailored to your style and occasion.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">✦</div>
+            <div>
+              <h4>Professional Expertise</h4>
+              <p>Years of experience delivering flawless makeup, nails, lashes, and beauty treatments.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">✦</div>
+            <div>
+              <h4>Premium Products</h4>
+              <p>Only high-quality products trusted by beauty professionals.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">✦</div>
+            <div>
+              <h4>Home Service Available</h4>
+              <p>Luxury beauty delivered directly to your home for maximum comfort and convenience.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">✦</div>
+            <div>
+              <h4>Personalized Consultation</h4>
+              <p>Every appointment begins with understanding your vision before bringing it to life.</p>
+            </div>
+          </div>
+          <div class="why-item">
+            <div class="why-icon">✦</div>
+            <div>
+              <h4>Customer Satisfaction</h4>
+              <p>Your confidence and happiness are always our highest priority.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. GALLERY (FILTERABLE LIGHTBOX)
+    ============================================================ -->
+    <section class="section-container" id="gallery">
+      <div class="section-head-flex align-top">
+        <div>
+          <h2 class="section-title-large">Our <span class="bold-title">Gallery</span></h2>
+          <p class="sub-caption">Every look tells a story. Explore our collection of bridal transformations,<br />glamorous makeovers, luxury nails, flawless lashes, and beautiful moments.</p>
+        </div>
+      </div>
+
+      <div class="gallery-filter-pills">
+        <button class="filter-pill active" data-gal-filter="all">All</button>
+        <button class="filter-pill" data-gal-filter="bridal">Bridal Glam</button>
+        <button class="filter-pill" data-gal-filter="soft">Soft Glam</button>
+        <button class="filter-pill" data-gal-filter="full">Full Glam</button>
+        <button class="filter-pill" data-gal-filter="nails">Nails</button>
+        <button class="filter-pill" data-gal-filter="lash">Lashes</button>
+        <button class="filter-pill" data-gal-filter="pedi">Pedicure</button>
+      </div>
+
+      <div class="gallery-mosaic">
+        <div class="gallery-item tall" data-gal-category="bridal" style="background-image: url('https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=700&q=85');">
+          <span class="gallery-label">Bridal Glam</span>
+        </div>
+        <div class="gallery-item" data-gal-category="soft" style="background-image: url('https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=600&q=80');">
+          <span class="gallery-label">Soft Glam</span>
+        </div>
+        <div class="gallery-item" data-gal-category="full" style="background-image: url('https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=600&q=80');">
+          <span class="gallery-label">Full Glam</span>
+        </div>
+        <div class="gallery-item wide" data-gal-category="bridal" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80');">
+          <span class="gallery-label">Client Transformations</span>
+        </div>
+        <div class="gallery-item" data-gal-category="nails" style="background-image: url('https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=80');">
+          <span class="gallery-label">Nails</span>
+        </div>
+        <div class="gallery-item" data-gal-category="pedi" style="background-image: url('https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=600&q=80');">
+          <span class="gallery-label">Pedicure</span>
+        </div>
+        <div class="gallery-item" data-gal-category="lash" style="background-image: url('https://images.unsplash.com/photo-1583241800698-e8ab01830a34?auto=format&fit=crop&w=600&q=80');">
+          <span class="gallery-label">Lashes</span>
+        </div>
+        <div class="gallery-item" data-gal-category="soft" style="background-image: url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=600&q=80');">
+          <span class="gallery-label">Studio Moments</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. TESTIMONIALS / GLOWING REVIEWS
+    ============================================================ -->
+    <section class="section-container" id="reviews">
+      <div class="section-head-flex align-top">
+        <div>
+          <h2 class="section-title-large">What Our <span class="bold-title">Clients Say</span></h2>
+          <p class="sub-caption">Real experiences from real clients who trusted RiaGlowRoom.</p>
+        </div>
+        <div class="reviewer-avatar-stack">
+          <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=100&h=100&q=80" alt="Client" class="avatar-circle" />
+          <img src="https://images.unsplash.com/photo-1596815064285-45ed8a9c0463?auto=format&fit=crop&w=100&h=100&q=80" alt="Client" class="avatar-circle" />
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=100&h=100&q=80" alt="Client" class="avatar-circle" />
+          <div class="avatar-circle count-badge">+42</div>
+        </div>
+      </div>
+
+      <div class="reviews-grid-deck">
+        <div class="review-card-item featured-review">
+          <div class="stars">★★★★★</div>
+          <p class="review-quote">"The best makeup artist I've ever worked with. My bridal glam stayed flawless all day, and I received compliments everywhere."</p>
+          <div class="reviewer-meta">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=100&h=100&q=80" alt="Sarah A." class="reviewer-thumb" />
+            <div class="reviewer-info">
+              <span class="rating">★ 5.0</span>
+              <h5 class="reviewer-name">Sarah A.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="review-card-item">
+          <div class="stars">★★★★★</div>
+          <p class="review-quote">"Professional, friendly, and incredibly talented. My nails and lashes were absolutely perfect."</p>
+          <div class="reviewer-meta">
+            <img src="https://images.unsplash.com/photo-1596815064285-45ed8a9c0463?auto=format&fit=crop&w=100&h=100&q=80" alt="Deborah O." class="reviewer-thumb" />
+            <div class="reviewer-info">
+              <span class="rating">★ 5.0</span>
+              <h5 class="reviewer-name">Deborah O.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="review-card-item">
+          <div class="stars">★★★★★</div>
+          <p class="review-quote">"RiaGlowRoom exceeded all my expectations. I left feeling more confident than ever."</p>
+          <div class="reviewer-meta">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=100&h=100&q=80" alt="Mercy T." class="reviewer-thumb" />
+            <div class="reviewer-info">
+              <span class="rating">★ 5.0</span>
+              <h5 class="reviewer-name">Mercy T.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="review-card-item">
+          <div class="stars">★★★★★</div>
+          <p class="review-quote">"Excellent customer service, beautiful studio, and amazing attention to detail. Highly recommended."</p>
+          <div class="reviewer-meta">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100&h=100&q=80" alt="Faith K." class="reviewer-thumb" />
+            <div class="reviewer-info">
+              <span class="rating">★ 5.0</span>
+              <h5 class="reviewer-name">Faith K.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-arrows right-align">
+        <button class="arrow-nav-btn prev-review" aria-label="Previous reviews">←</button>
+        <button class="arrow-nav-btn active next-review" aria-label="Next reviews">→</button>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         8. ABOUT FULL SECTION
+    ============================================================ -->
+    <section class="section-container about-full-section" id="about-full">
+      <div class="section-head-flex">
+        <h2 class="section-title-large">About <span class="bold-title">RiaGlowRoom</span></h2>
+      </div>
+      <div class="about-two-col">
+        <div class="about-image-wrap">
+          <div class="about-img-main" style="background-image: url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=85');"></div>
+          <div class="about-img-accent" style="background-image: url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=500&q=80');"></div>
+          <div class="about-stat-badge">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <p class="about-para">At RiaGlowRoom, beauty is more than makeup — it's confidence, self-expression, and elegance. We specialize in creating timeless looks that celebrate your unique features while delivering exceptional beauty experiences.</p>
+          <p class="about-para">Whether you're preparing for your wedding, a photoshoot, a special occasion, or simply treating yourself, our goal is to ensure you leave feeling radiant, confident, and unforgettable.</p>
+          <p class="about-para">Every service is delivered with premium products, attention to detail, and genuine care — because you deserve nothing less than excellence.</p>
+          <div class="about-stats-row">
+            <div class="about-stat">
+              <span class="stat-big">500+</span>
+              <span class="stat-desc">Happy Clients</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-big">5★</span>
+              <span class="stat-desc">Average Rating</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-big">3+</span>
+              <span class="stat-desc">Years Experience</span>
+            </div>
+          </div>
+          <a href="https://wa.me/2347075095646" class="btn-primary inline-btn" id="about-book-btn" target="_blank" rel="noopener">Book Your Experience ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         9. FAQ SECTION
+    ============================================================ -->
+    <section class="section-container" id="faq">
+      <div class="section-head-flex">
+        <h2 class="section-title-large">
+          Frequently Asked<br /><span class="bold-title">Questions</span>
+        </h2>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item" id="faq-1">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you offer home service?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. We provide luxury beauty services at your location upon appointment. Home service is available on request — contact us to schedule yours.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-2">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do I book?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Simply contact us through WhatsApp, Instagram, or our booking form. We'll confirm your date, time, and service details.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-3">
+          <button class="faq-question" aria-expanded="false">
+            <span>What should I bring?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Just yourself! We'll take care of everything needed for your appointment — products, tools, and expertise are all on us.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-4">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you accept bridal bookings?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. We recommend booking several weeks in advance to secure your preferred date, especially for bridal and event services.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         10. BOOKING CTA
+    ============================================================ -->
+    <section class="cta-section" id="book">
+      <div class="cta-bg-image" style="background-image: url('https://images.unsplash.com/photo-1512290900676-26c2a48f9f3d?auto=format&fit=crop&w=1600&q=85');"></div>
+      <div class="cta-overlay"></div>
+      <div class="cta-content">
+        <span class="cta-eyebrow">✦ Limited Slots Available</span>
+        <h2 class="cta-heading">Ready to Glow?</h2>
+        <p class="cta-sub">Book your appointment today and let us create a look you'll absolutely love.</p>
+        <a href="https://wa.me/2347075095646" class="btn-primary large-btn" id="cta-book-btn" target="_blank" rel="noopener">Book Your Appointment ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer-section" id="contact">
+    <div class="footer-container">
+
+      <div class="footer-left">
+        <h3 class="footer-logo">RiaGlowRoom</h3>
+        <p class="footer-tagline">Beauty in Every Detail</p>
+        <p class="footer-desc">Every woman deserves to feel beautiful. Experience luxury beauty services designed to enhance your confidence and leave a lasting impression.</p>
+
+        <div class="footer-contact-info">
+          <div class="contact-row">
+            <iconify-icon icon="ph:phone-bold" width="16" height="16"></iconify-icon>
+            <a href="tel:07075095646">07075095646</a>
+          </div>
+          <div class="contact-row">
+            <iconify-icon icon="ri:instagram-line" width="16" height="16"></iconify-icon>
+            <a href="https://instagram.com/sheisria" target="_blank" rel="noopener">@sheisria</a>
+          </div>
+          <div class="contact-row">
+            <iconify-icon icon="ph:map-pin-bold" width="16" height="16"></iconify-icon>
+            <span>Ado Ekiti, Nigeria</span>
+          </div>
+          <div class="contact-row">
+            <iconify-icon icon="ph:house-line-bold" width="16" height="16"></iconify-icon>
+            <span>Home Service — Available on request</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-nav-columns">
+        <div class="footer-col">
+          <h4 class="footer-col-title">Let's Connect</h4>
+          <h2 class="footer-connect-heading">Every Woman Deserves to Feel Beautiful</h2>
+          <p class="footer-connect-sub">Experience luxury beauty services designed to enhance your confidence and leave a lasting impression. Book your RiaGlowRoom experience today.</p>
+          <a href="https://wa.me/2347075095646" class="btn-primary inline-btn" id="footer-book-btn" target="_blank" rel="noopener">Book an Appointment ↗</a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Services</h4>
+          <a href="#services">Bridal Makeup</a>
+          <a href="#services">Soft Glam</a>
+          <a href="#services">Full Glam</a>
+          <a href="#services">Nail Services</a>
+          <a href="#services">Lash Extensions</a>
+          <a href="#services">Home Service</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2025 RiaGlowRoom. All rights reserved.</span>
+      <div class="footer-social-icons">
+        <a href="https://wa.me/2347075095646" aria-label="WhatsApp" target="_blank" rel="noopener" class="social-pill">
+          <iconify-icon icon="ic:baseline-whatsapp" width="16" height="16"></iconify-icon>
+          WhatsApp
+        </a>
+        <a href="https://instagram.com/sheisria" aria-label="Instagram" target="_blank" rel="noopener" class="social-pill">
+          <iconify-icon icon="ri:instagram-line" width="16" height="16"></iconify-icon>
+          @sheisria
+        </a>
+        <a href="tel:07075095646" aria-label="Call us" class="social-pill">
+          <iconify-icon icon="ph:phone-bold" width="16" height="16"></iconify-icon>
+          Call Us
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
